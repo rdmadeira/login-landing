@@ -16,23 +16,24 @@ a {
     justify-content: center;
     align-items: center;
     border-style: groove;
-    border-color: #ebe4e4 #b9b5b5;
+    border-color: #fdf3f3;
     border-width: 5px;    
-    padding: 0px 20px 30px;
+    padding: 20px 20px 30px;
     row-gap: 19px;
 }
 .logo {    
-    background: rgb(255, 255, 255);
+    background: rgb(145 209 185);
     border-radius: 50%;
     text-align: center;
-    width: 70%;   
-    height: 145px; 
+    width: 37%;
+    padding: 21px 22px; 
 }
 .iniciar-sesion img {
     border-style: none;
     width: 100%;    
+    filter: invert(100%) sepia(0%) saturate(7470%) hue-rotate(116deg) brightness(160%) contrast(160%);
 }
-.iniciar-sesion div {
+.iniciar-sesion div, .iniciar-sesion form {
     text-align: center;
 }
 .iniciar-sesion h2 {
@@ -45,10 +46,11 @@ a {
 input[type=email] {
     border-radius: 5px 5px 0px 0px;
     width: 100%;
-    padding: 15px;
+    padding: 20px 15px;
     border-color: #bdb7b7;
     border-style: solid;
     border-width: 1px;
+    border-bottom: none;
 }
 input[type=password] {
     border-radius: 0px 0px 5px 5px;
